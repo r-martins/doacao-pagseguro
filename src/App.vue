@@ -64,8 +64,8 @@ export default {
     const submitted = ref(false)
     const payLink = ref(null)
     const aPayLink = ref(null)
-    const title = ref('Faça sua Contribuição')
-    const logo = ref('https://pagseguro.ricardomartins.net.br/assets/images/21b8505b393b2fcc6d75602fb9caaa99_logo2019integracoes.png')
+    const title = ref('Contribua com nosso projeto')
+    const logo = ref('https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@0.1.0/src/assets/pagseguro-contribua.png')
     
 
     function setUseCustom() {
@@ -84,7 +84,7 @@ export default {
       formData.append('frequency', frequency.value)
       formData.append('receiverEmail', document.getElementById('doar-pagseguro').dataset.receiveremail)
       
-      fetch('https://v7.test/donate/new', {
+      fetch('https://ws.ricardomartins.net.br/pspro/v7/donate/new', {
         method: 'POST',
         body: formData
       })
