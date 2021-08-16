@@ -1,7 +1,7 @@
 <template>
   <form @submit.prevent="handleSubmit" class="mainForm" >
     <div class="logo">
-      <img alt="Contribua com PagSeguro" :src="logo"/>
+      <img alt="Logo" :src="logo"/>
     </div>
     <h2 class="contrib-title">{{title}}</h2>
     <div class="frequency">
@@ -35,7 +35,7 @@
         <p class="payLink"><a :href="payLink" ref="aPayLink" target="_blank">Clique aqui</a> para prosseguir</p>
       </div>
     </div>
-    <p class="by" v-if="!payLink">Contibuição feita via <a href="https://pagseguro.ricardomartins.net.br/doar-com-pagseguro" target="_blank">PagSeguro UOL</a></p>
+    <p class="by" v-if="!payLink">Contibuição feita via <a href="https://pagseguro.ricardomartins.net.br/doar-com-pagseguro?utm_source=doarbox" target="_blank">PagSeguro UOL</a></p>
   </form>
 </template>
 
