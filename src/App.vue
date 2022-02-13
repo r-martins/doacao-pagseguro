@@ -189,7 +189,7 @@ export default {
   width: 100%;
 }
 
-.mainForm .amounts .option, .frequency button {
+.mainForm .amounts .option, .mainForm .frequency button {
   color: #46a034;
   font-size: 16px;
   padding: 9px;
@@ -213,19 +213,21 @@ export default {
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-.mainForm .monthly{
+.mainForm .frequency button.monthly{
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+  background-color: rgba(197,197,204,0.28);
 }
 
 .mainForm .custom-amount {
   margin-top: 20px;
 }
 
-.mainForm .amounts .option {
+.mainForm .amounts button.option, .mainForm button.submit, .mainForm .frequency button {
+  background-color: rgba(197,197,204,0.28);
 }
 
-.mainForm .option.active, .frequency .active {
+.mainForm .option button.active, .mainForm .frequency button.active, .mainForm .amounts button.active, .mainForm button.submit, .mainForm .frequency button:hover, .mainForm .amounts button.option:hover, .mainForm button.submit:hover, .mainForm button.submit:active, .mainForm button.submit:focus{
   background-color: #2d7120;
   color: #fff;
 }
@@ -247,7 +249,7 @@ export default {
 .mainForm .monthly-info {
   font-size: 14px;
 }
-.mainForm .submit {
+.mainForm button.submit {
   padding: 12px 31px;
   background-color: #09a805;
   border: none;
@@ -269,5 +271,15 @@ export default {
   height: 0px;
   border-top: 1px solid #d0cece;
   border-bottom: 0px;
+}
+
+.mainForm input.customAmountInput {
+  font-size: 15px;
+  line-height: 23px;
+  width: 120px;
+  border: 1px solid gray;
+  color: #4b4a4a;
+  font-family: unset;
+  margin: auto;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <input type="text" v-model="customAmount" @blur="formatAndUpdateAmount" @focus="removeSymbol"
-         ref="customAmountInput" placeholder="R$ 123,99"/>
+         ref="customAmountInput" placeholder="R$ 123,99" class="customAmountInput"/>
 </template>
 
 <script>
