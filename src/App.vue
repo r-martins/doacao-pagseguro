@@ -96,7 +96,6 @@ export default {
           }
           if (data.redirectTo) {
             payLink.value = data.redirectTo
-            aPayLink.value.click()
           }
         })
         .catch((err) => {
@@ -255,11 +254,12 @@ h2 {
   font-weight: bold;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
-.paylink {
+.payLink {
   font-weight: bold;
 }
-.paylink a {
+.payLink a {
   color: #099b34;
   text-decoration-color: #c8c8c8;
 }
