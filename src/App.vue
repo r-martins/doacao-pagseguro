@@ -156,14 +156,14 @@ export default {
   padding: 10px;
   border: 1px solid #dedede;
 }
-#doar-pagseguro hr {
+.mainForm #doar-pagseguro hr {
   width: 70%;
   height:1px;
   border-width:0;
   color:#dedede;
   background-color:#dedede;
 }
-#doar-pagseguro input {
+.mainForm #doar-pagseguro input {
   display: block;
   margin: 10px auto;
   width: 75%;
@@ -171,7 +171,7 @@ export default {
   padding: 10px;
   border: 1px solid #eee;
 }
-#doar-pagseguro label {
+.mainForm #doar-pagseguro label {
   display: inline-block;
   margin-top: 10px;
   position: relative;
@@ -180,16 +180,16 @@ export default {
 
 }
 
-.logo {
+.mainForm .logo {
   width: 230px;
   margin: 0 auto;
 }
-.logo img{
+.mainForm .logo img{
   margin: 0 auto;
   width: 100%;
 }
 
-.amounts .option, .frequency button {
+.mainForm .amounts .option, .frequency button {
   color: #46a034;
   font-size: 16px;
   padding: 9px;
@@ -199,55 +199,55 @@ export default {
   margin: 4px 0;
   cursor: pointer;
 }
-.amounts .option{
+.mainForm .amounts .option{
   margin: 4px;
 }
-.frequency button {
+.mainForm .frequency button {
   font-size: 14px;
 }
-h2 {
+.mainForm h2 {
   font-size: 20px;
   font-weight: normal;
 }
-.unique{
+.mainForm .unique{
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
 }
-.monthly{
+.mainForm .monthly{
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 
-.custom-amount {
+.mainForm .custom-amount {
   margin-top: 20px;
 }
 
-.amounts .option {
+.mainForm .amounts .option {
 }
 
-.option.active, .frequency .active {
+.mainForm .option.active, .frequency .active {
   background-color: #2d7120;
   color: #fff;
 }
 
-.error {
+.mainForm .error {
   color: red;
   font-size: 14px;
   margin: 14px 0;
   font-weight: bold;
 }
-.by {
+.mainForm .by {
   font-size: 12px;
 }
-.by a {
+.mainForm .by a {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
 }
-.monthly-info {
+.mainForm .monthly-info {
   font-size: 14px;
 }
-.submit {
+.mainForm .submit {
   padding: 12px 31px;
   background-color: #09a805;
   border: none;
@@ -256,11 +256,18 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
 }
-.payLink {
+.mainForm .payLink {
   font-weight: bold;
 }
-.payLink a {
+.mainForm .payLink a {
   color: #099b34;
   text-decoration-color: #c8c8c8;
+}
+
+.mainForm hr {
+  width: 50%;
+  height: 0px;
+  border-top: 1px solid #d0cece;
+  border-bottom: 0px;
 }
 </style>
