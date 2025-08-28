@@ -7,24 +7,24 @@
 ```html
 <div id="doar-pagseguro" data-receiveremail="testepagseguro2@ricardomartins.net.br" data-title="Contribua com nosso projeto" data-logo=""></div>
 
-<script src="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@1/dist/js/chunk-vendors.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@1/dist/js/app.js"></script>
-<link href="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@1/dist/css/app.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@2/dist/js/chunk-vendors.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@2/dist/js/app.js"></script>
+<link href="https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@2/dist/css/app.css" rel="stylesheet">
 ```
 ### 2. Substitua o e-mail recebedor
 Modifique o e-mail em `data-receiveremail`. <br/>Coloque o e-mail da conta PagSeguro que receberá os pagamentos.
 
 ### 3. Autorize a conta PagSeguro no modelo de aplicação
-[Clique aqui](https://pagseguro.ricardomartins.net.br/autorizar.html) para autorizar a aplicação de "PagSeguro Integrações/Ricardo Martins".<br/>
+[Clique aqui](https://pbintegracoes.com/autorizar/?utm_source=github&utm_content=doarbox-readme) para autorizar a aplicação de "PagSeguro Integrações/Ricardo Martins".<br/>
 A autorização é gratuita e você passará a pagar menos taxas em pagamentos realizados com o Widget.<br/>
-Saiba mais [aqui](https://pagseguro.ricardomartins.net.br/compare.html).
+Saiba mais [aqui](https://pbintegracoes.com/compare/?utm_source=github&utm_content=doarbox-readme).
 
 ### Pronto!
 Você está pronto para receber doações únicas ou recorrentes via PagSeguro.<br/>
-Se tiver dúvidas ou problemas, acesse nossa [central de ajuda](https://pagsegurotransparente.zendesk.com/hc/pt-br). <br/>Você também pode entrar em contato com nosso suporte por lá.
+Se tiver dúvidas ou problemas, acesse nossa [central de ajuda](https://ajuda.pbintegracoes.com/hc/pt-br). <br/>Você também pode entrar em contato com nosso suporte por lá.
 
 # Demonstração
-Você pode ver uma demonstração ao vivo [aqui](https://pagseguro.ricardomartins.net.br/doar-com-pagseguro.html).
+Você pode ver uma demonstração ao vivo [aqui](https://pbintegracoes.com/doar-com-pagseguro/?utm_source=github&utm_content=doarbox-readme).
 <br/>Veja um screenshot abaixo: <br/>
 <img src="https://user-images.githubusercontent.com/191149/153778187-0275a7a8-18e3-4eb6-af93-b4672ea8ac6c.png" width="300"/>
 

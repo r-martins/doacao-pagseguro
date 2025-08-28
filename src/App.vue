@@ -35,7 +35,7 @@
         <p class="payLink"><a :href="payLink" ref="aPayLink" target="_blank">Clique aqui</a> para prosseguir</p>
       </div>
     </div>
-    <p class="by" v-if="!payLink">Contibuição feita via <a href="https://pagseguro.ricardomartins.net.br/doar-com-pagseguro?utm_source=doarbox" target="_blank">PagSeguro UOL</a></p>
+    <p class="by" v-if="!payLink">Contibuição feita via <a href="https://pbintegracoes.com/doar-com-pagseguro/?utm_source=doarbox" target="_blank">PagBank UOL</a></p>
   </form>
 </template>
 
@@ -65,7 +65,7 @@ export default {
     const payLink = ref(null)
     const aPayLink = ref(null)
     const title = ref('Contribua com nosso projeto')
-    const logo = ref('https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@0.1.0/src/assets/pagseguro-contribua.png')
+    const logo = ref('https://cdn.jsdelivr.net/gh/r-martins/doacao-pagseguro@2/src/assets/pagseguro-contribua.png')
     
 
     function setUseCustom() {
@@ -84,7 +84,7 @@ export default {
       formData.append('frequency', frequency.value)
       formData.append('receiverEmail', document.getElementById('doar-pagseguro').dataset.receiveremail)
       
-      fetch('https://ws.ricardomartins.net.br/pspro/v7/donate/new', {
+      fetch('https://ws.pbintegracoes.com/pspro/v7/donate/new', {
         method: 'POST',
         body: formData
       })
